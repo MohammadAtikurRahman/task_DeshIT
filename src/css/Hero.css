@@ -1,16 +1,21 @@
-.hero-section {
+/* .hero-section {
   background: linear-gradient(90deg, #0f0c29, #1d1d54, #1d1d54);
   min-height: 100vh;
   overflow: hidden;
-}
+} */
 
 /* Intro line */
 .intro-text {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 
+.mid-text {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 2.0rem;
+}
 /* Highlighted text */
 .highlight {
   color: #8b5cf6; /* violet-purple accent */

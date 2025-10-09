@@ -17,12 +17,13 @@ export default function Hero() {
               </p>
             </div>
 
-            <h1 className="fw-bold mb-3">
-              Maximize Your Business <span className="highlight">Potential</span> with <br />
-              Custom Web Development <span className="highlight">Solutions!</span>
+            <h1 className="mid-text mb-3">
+              Maximize Your Business <br />
+               <span className="highlight">Potential</span> with 
+              Custom Web <br /> Development <span className="highlight">Solutions!</span>
             </h1>
 
-            <p className="text-muted mb-4">
+            <p className="text-warning mb-4">
               Take your business to the next level with custom web development solutions.
             </p>
 
