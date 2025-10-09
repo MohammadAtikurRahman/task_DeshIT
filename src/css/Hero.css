@@ -1,0 +1,116 @@
+.hero-section {
+  background: linear-gradient(90deg, #0f0c29, #1d1d54, #1d1d54);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Intro line */
+.intro-text {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+
+/* Highlighted text */
+.highlight {
+  color: #8b5cf6; /* violet-purple accent */
+}
+
+/* Info box */
+.info-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 0.95rem;
+  max-width: 80%;
+}
+
+/* Buttons */
+.custom-btn {
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary.custom-btn {
+  background-color: #c300ff;
+  border: none;
+}
+
+.btn-primary.custom-btn:hover {
+  background-color: #9b00cc;
+}
+
+.btn-outline-light.custom-btn:hover {
+  background-color: #fff;
+  color: #1d1d54 !important;
+}
+
+/* Profile image */
+.profile-circle {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ff0066, #9b00ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Badges */
+.badge {
+  position: absolute;
+  background: #ff4d8d;
+  color: white;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.badge-left {
+  top: 25%;
+  left: -30px;
+  transform: rotate(-15deg);
+  background: #ff4d8d;
+}
+
+.badge-right {
+  top: 25%;
+  right: -35px;
+  transform: rotate(15deg);
+  background: #b300ff;
+}
+
+/* Social Icons */
+.social-icons .icon {
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: #c300ff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .info-box {
+    max-width: 100%;
+  }
+  .profile-circle {
+    width: 220px;
+    height: 220px;
+  }
+}
